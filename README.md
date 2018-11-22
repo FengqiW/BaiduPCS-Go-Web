@@ -38,6 +38,8 @@ PASSWORD=YourPassword npm run serve
 
 ## 登录 非常重要
 
+使用浏览器打开 http://localhost
+
 在输入框里面输入以下内容，点击 run
 
 ``` bash
