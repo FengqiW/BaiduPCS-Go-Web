@@ -1,6 +1,6 @@
 import fetch from "@/utils/fetch";
 
-const API_URL = "http://localhost:3001";
+const API_URL = `http://${window.location.hostname}:3001`;
 
 export default {
   run(cmd, psw) {
