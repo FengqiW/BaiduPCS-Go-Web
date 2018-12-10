@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
+RUN echo $VUE_APP_REQUEST_URL
 RUN echo VUE_APP_REQUEST_URL=$VUE_APP_REQUEST_URL > .env
 RUN cat .env
 RUN npm run build
