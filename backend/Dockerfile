@@ -1,6 +1,9 @@
 FROM node:8-alpine
-RUN mkdir app
-WORKDIR app
+ARG APP_PASSWORD=YourPassword
+ENV APP_PASSWORD=$APP_PASSWORD
+
+RUN mkdir /app
+WORKDIR /app
 ADD package.json /app
 
 RUN npm i

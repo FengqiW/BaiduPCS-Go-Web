@@ -5,7 +5,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
       args:
-        - PASSWORD=YourPassword
+        - APP_PASSWORD=YourPassword
     ports:
       - "3001:3001"
     volumes:

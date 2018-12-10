@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 // shell
 const shell = require("shelljs");
 const path = require("path");
-const password = process.env.PASSWORD || "YourPassword"; // change your password here
+const password = process.env.APP_PASSWORD || "YourPassword"; // change your password here
 const port = process.env.PORT || 3001;
 
 // app.use(express.static(`${__dirname}/dist`));
