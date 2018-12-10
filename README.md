@@ -16,7 +16,7 @@
 
 修改docker-compose.yml 里面的password 默认为`YourPassword`
 
-## 安装(docker compose)
+## Option1 安装(docker compose)
 
 安装教程 https://docs.docker.com/compose/install/
 
@@ -24,7 +24,7 @@
 sudo docker-compose up -d
 ```
 
-## 安装(npm)
+## Option2 安装(npm)
 安装包下载 https://nodejs.org/en/download/
 ``` bash
 cd frontend
