@@ -67,3 +67,5 @@ https://github.com/iikira/BaiduPCS-Go/releases
 
 记得运行 chmod u+x ./BaiduPCS-Go (如果不用docker)
 
+
+## 如有问题或者需要什么新功能可以发issue
