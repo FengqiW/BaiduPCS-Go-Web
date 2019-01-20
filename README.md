@@ -18,7 +18,11 @@
 
 ## Option1 安装(docker compose)
 
-安装教程 https://docs.docker.com/compose/install/
+安装教程 
+
+https://github.com/docker/docker-install  
+
+https://docs.docker.com/compose/install/
 
 ```bash
 sudo docker-compose up -d
